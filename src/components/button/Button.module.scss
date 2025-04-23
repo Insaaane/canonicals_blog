@@ -10,10 +10,29 @@
   border: 1px solid #000;
 }
 
+.button_submit {
+  background-color: #FFC802;
+}
+
+.button_submit:hover {
+  background-color: #FFEDAB;
+}
+
+.button_reset {
+  background-color: transparent;
+}
+
+.button_reset:hover {
+  background-color: #000000;
+}
+.button_reset:hover > div {
+  color: #FFFFFF;
+}
+
 .button:active {
   background: var(--gold, #ffc802);
 }
-
-.button:hover {
-  background: var(--gold, #ffc802);
+.button:active > div {
+  color: #000;
 }
+
